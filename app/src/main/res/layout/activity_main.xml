@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/resbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/mainmsg"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="16dp"
+        android:onClick="onButClick"
+        android:text="@string/Restore" />
+
+    <Button
+        android:id="@+id/backbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resbut"
+        android:layout_alignBottom="@+id/resbut"
+        android:layout_alignLeft="@+id/mainmsg"
+        android:layout_marginLeft="38dp"
+        android:onClick="onButClick"
+        android:text="@string/Backup" />
+
+    <TextView
+        android:id="@+id/mainmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:text="@string/MainMsg"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<RadioGroup
+	    android:id="@+id/radgrp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/backbut"
+	    android:layout_below="@+id/mainmsg"
+	    android:orientation="horizontal" >
+
+	    <RadioButton
+	        android:id="@+id/contradio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="59dp"
+	        android:background="@drawable/contact_icon" />
+
+	    <RadioButton
+	        android:id="@+id/smsradio"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="65dp"
+	        android:layout_marginLeft="40dp"
+	        android:background="@drawable/sms_icon" />
+
+	</RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyBackup</string>
+    <string name="action_settings">Settings</string>
+    <string name="MainMsg">Choose your data and what you want to do with it</string>
+    <string name="Backup">Backup</string>
+    <string name="Restore">Restore</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Sms">Sms</string>
+    <string name="title_activity_backup">Backup Data</string>
+    <string name="title_activity_restore">Restore Data</string>
+    <string name="xmlhead">&lt;?xml version=\&quot;1.0\&quot; encoding=\&quot;utf-8\&quot;?&gt;\n</string>
+    <string name="log">View Log/History</string>
+    <string name="title_activity_log">Log/History</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_credential">Cloud Settings</string>
+    <string name="uname">Username</string>
+    <string name="pass">Password</string>
+    <string name="cloud">Use Cloud/Dropbox (Disable Local)</string>
+
+</resources>
